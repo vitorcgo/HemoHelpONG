@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -21,7 +21,7 @@
             </div>
             <!-- Menu -->
             <div class="flex gap-[21px] items-center">
-                <p class="text-white text-[20px] font-[700]">Menu</p>
+                <p class="text-white text-[20px] [@media(max-width:550px)]:hidden">Menu</p>
                 <figure class="cursor-pointer">
                     <img src="/src/assets/img/menu.svg">
                 </figure>
@@ -32,18 +32,19 @@
 
     <!-- Main -->
     <main
-        class="w-screen h-[910px] flex justify-center items-center gap-[10px] bg-[url('/src/assets/img/primeiro.png')]">
-        <article class="flex flex-col justify-center items-center w-[700px]">
+        class="w-screen h-[910px] flex justify-center items-center gap-[10px] bg-[url('/src/assets/img/primeiro.png')] [@media(max-width:550px)]:flex-col ">
+        <article class="flex flex-col justify-center items-center w-[700px] ">
             <!-- Titulo -->
             <div>
-                <h1 class="font-black text-black text-[80px] tracking-[-3.84px] text-center leading-[0.8]">
+                <h1 class="font-black text-black text-[80px] tracking-[-3.84px] text-center leading-[0.8] [@media(max-width:550px)]:w-[400px] [@media(max-width:550px)]:text-[60px]">
                     Doar sangue é <span class="text-[#D70202] tracking-[-3.84px] leading-[0.8]">salvar vidas</span>
                 </h1>
             </div>
             
             <!-- Paragrafo -->
             <div>
-                <p class=" text-[25px] font-medium text-center tracking-[-1px] mt-[1px]">Nossa ong te ajuda a doar e
+                <p class=" text-[25px] font-medium text-center tracking-[-1px] mt-[1px] [@media(max-width:550px)]:w-[350px]
+                [@media(max-width:550px)]:text-[20px] [@media(max-width:550px)]:mt-5">Nossa ong te ajuda a doar e
                     realizar eventos de doação de sangue, envolvendo a comunidade e
                     transformando vidas.</p>
             </div>
@@ -70,7 +71,7 @@
 
     <!-- Quem somos? -->
 
-    <article class="w-screen h-[1080px] bg-[#801C1C]">
+    <article class="w-screen h-[1080px] bg-[#801C1C] [@media(max-width:550px)]:flex-col">
         <div>
             <h1 class="text-center text-[80px] font-extrabold tracking-[-3.84px] text-white pt-20">Quem Somos?</h1>
         </div>
@@ -125,7 +126,7 @@
         <!-- Title -->
          <div class="text-center mt-15">
             <p class="text-[#D70202] font-medium tracking-[-1.28px] text-[32px]">Nosso impacto em números</p>
-            <h3 class="text-[35px] font-bold">Salvando vidas com Hemohelp</h3>
+            <h3 class="text-[35px] font-bold [@media(max-width:550px)]:text-[25px]">Salvando vidas com Hemohelp</h3>
             <p class="text-[20px] font-light">Juntos, mudamos o mundo promovendo a doação de sangue desde 2023.</p>
          </div>
 
