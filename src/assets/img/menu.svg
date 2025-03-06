@@ -1,0 +1,40 @@
+<svg width="38" height="31" viewBox="0 0 38 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Group">
+<g id="Clip path group">
+<mask id="mask0_12_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="38" height="4">
+<g id="c">
+<path id="Vector" d="M0 0H38V3.84669H0V0Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask0_12_3)">
+<g id="Group_2">
+<path id="Vector_2" d="M1.90065 3.83613H36.1007C36.7795 3.83613 37.4068 3.47403 37.7462 2.88623C38.0856 2.29815 38.0856 1.57398 37.7462 0.986191C37.4068 0.398402 36.7795 0.0362854 36.1007 0.0362854H1.90065C1.22182 0.0362854 0.594584 0.398387 0.255171 0.986191C-0.0842431 1.57398 -0.0842431 2.29821 0.255171 2.88623C0.594584 3.47402 1.22182 3.83613 1.90065 3.83613Z" fill="white"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_2">
+<mask id="mask1_12_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="26" width="38" height="5">
+<g id="b">
+<path id="Vector_3" d="M0 26.6251H38V30.4718H0V26.6251Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask1_12_3)">
+<g id="Group_3">
+<path id="Vector_4" d="M36.1001 26.6357H1.90004C1.22121 26.6357 0.593974 26.9978 0.25456 27.5859C-0.0848534 28.1737 -0.0848534 28.8979 0.25456 29.4857C0.593974 30.0738 1.22121 30.4359 1.90004 30.4359H36.1001C36.7789 30.4359 37.4062 30.0738 37.7456 29.4857C38.085 28.8979 38.085 28.1737 37.7456 27.5859C37.4062 26.9978 36.7789 26.6357 36.1001 26.6357Z" fill="white"/>
+</g>
+</g>
+</g>
+<g id="Clip path group_3">
+<mask id="mask2_12_3" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="13" width="38" height="5">
+<g id="a">
+<path id="Vector_5" d="M0 13.2748H38V17.197H0V13.2748Z" fill="white"/>
+</g>
+</mask>
+<g mask="url(#mask2_12_3)">
+<g id="Group_4">
+<path id="Vector_6" d="M36.1001 13.3359H1.90004C1.22121 13.3359 0.593974 13.698 0.25456 14.2858C-0.0848534 14.8736 -0.0848534 15.5981 0.25456 16.1859C0.593974 16.7737 1.22121 17.1358 1.90004 17.1358H36.1001C36.7789 17.1358 37.4062 16.7737 37.7456 16.1859C38.085 15.5981 38.085 14.8736 37.7456 14.2858C37.4062 13.6981 36.7789 13.3359 36.1001 13.3359Z" fill="white"/>
+</g>
+</g>
+</g>
+</g>
+</svg>
