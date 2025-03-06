@@ -4,14 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>HemoHelp - ONG</title>
 </head>
 
 <body class="overflow-x-hidden md:(1000px)
 
-    <section class=" w-screen h-screen">
-    <header class="w-screen h-[70px] bg-[#A60202]">
+<section class=" w-screen h-screen">
+    <header class="w-screen h-[70px] bg-[#A60202]"> 
         <nav class="flex justify-around">
             <!-- Logo -->
             <div>
@@ -21,9 +23,26 @@
             </div>
             <!-- Menu -->
             <div class="flex gap-[21px] items-center">
-                <p class="text-white text-[20px] [@media(max-width:550px)]:hidden">Menu</p>
+                <p class="text-white text-[20px] [@media(max-width:602px)]:hidden">Menu</p>
                 <figure class="cursor-pointer">
-                    <img src="/src/assets/img/menu.svg">
+                    <!-- Modal - DaisyUI -->
+                    <div class="drawer drawer-end">
+                        <input id="my-drawer" type="checkbox" class="drawer-toggle " />
+                        <div class="drawer-content ">
+                          <!-- Page content here -->
+                          <label for="my-drawer" class=" bg-[#A60202] drawer-button cursor-pointer"><img src="/src/assets/img/menu.svg" alt=""></label>
+                        </div>
+                        <div class="drawer-side ">
+                          <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay "></label>
+                          <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 text-[20px] items-center justify-center content-center bg-red-900 text-white font-bold">
+                            <!-- Sidebar Conteúdo -->
+                            <li><a href="" class="hover:text-[#832828]">Inicio</a></li>
+                            <li><a href="" class="hover:text-[#832828]">Quem somos?</a></li>
+                            <li><a href="" class="hover:text-[#832828]">Nossa localização</a></li>
+                            <li><a href="" class="hover:text-[#832828]">Nossos voluntários</a></li>
+                          </ul>
+                        </div>
+                      </div>
                 </figure>
             </div>
         </nav>
@@ -32,19 +51,19 @@
 
     <!-- Main -->
     <main
-        class="w-screen h-[910px] flex justify-center items-center gap-[10px] bg-[url('/src/assets/img/primeiro.png')] [@media(max-width:550px)]:flex-col ">
+        class="w-screen h-[910px] flex justify-center items-center gap-[10px] bg-[url('/src/assets/img/primeiro.png')] [@media(max-width:602px)]:flex-col ">
         <article class="flex flex-col justify-center items-center w-[700px] ">
             <!-- Titulo -->
             <div>
-                <h1 class="font-black text-black text-[80px] tracking-[-3.84px] text-center leading-[0.8] [@media(max-width:550px)]:w-[400px] [@media(max-width:550px)]:text-[60px]">
+                <h1 class="font-black text-black text-[80px] tracking-[-3.84px] text-center leading-[0.8] [@media(max-width:602px)]:w-[400px] [@media(max-width:602px)]:text-[60px]">
                     Doar sangue é <span class="text-[#D70202] tracking-[-3.84px] leading-[0.8]">salvar vidas</span>
                 </h1>
             </div>
             
             <!-- Paragrafo -->
             <div>
-                <p class=" text-[25px] font-medium text-center tracking-[-1px] mt-[1px] [@media(max-width:550px)]:w-[350px]
-                [@media(max-width:550px)]:text-[20px] [@media(max-width:550px)]:mt-5">Nossa ong te ajuda a doar e
+                <p class=" text-[25px] font-medium text-center tracking-[-1px] mt-[1px] [@media(max-width:602px)]:w-[350px]
+                [@media(max-width:602px)]:text-[20px] [@media(max-width:602px)]:mt-5">Nossa ong te ajuda a doar e
                     realizar eventos de doação de sangue, envolvendo a comunidade e
                     transformando vidas.</p>
             </div>
@@ -166,10 +185,19 @@
           </div>
         </article>
 
+        <section class="w-screen h-[1080px] mt-20">
+           <div>
+            <h1 class="text-[#B40000] text-[64px] font-bold text-center">Conheça nossos voluntários</h1>
+           </div>
+           <!-- Conteúdo -->
+           <main>
+
+           </main>
+        </section>
+
     </section>
-
-
-
 </body>
+
+
 <script src="/src/contador.js"></script>
 </html>
