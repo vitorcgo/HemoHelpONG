@@ -14,7 +14,7 @@
 <body class="overflow-x-hidden md:(1000px)
 
 <section class=" w-screen h-screen">
-    <header class="w-screen h-[70px] bg-[#A60202]"> 
+    <header class="w-screen h-[70px] bg-[#A60202]" id="index"> 
         <nav class="flex justify-around">
             <!-- Logo -->
             <div>
@@ -37,10 +37,9 @@
                           <label for="my-drawer" aria-label="close sidebar" class="drawer-overlay "></label>
                           <ul class="menu bg-base-200 text-base-content min-h-full w-80 p-4 text-[20px] items-center justify-center content-center bg-red-900 text-white font-bold">
                             <!-- Sidebar Conteúdo -->
-                            <li><a href="" class="hover:text-[#832828]">Inicio</a></li>
-                            <li><a href="" class="hover:text-[#832828]">Quem somos?</a></li>
-                            <li><a href="" class="hover:text-[#832828]">Nossa localização</a></li>
-                            <li><a href="" class="hover:text-[#832828]">Nossos voluntários</a></li>
+                            <li><a href="#index" class="hover:text-[#832828]">Inicio</a></li>
+                            <li><a href="#quemsomos" class="hover:text-[#832828]">Quem somos?</a></li>
+                            <li><a href="#localização" class="hover:text-[#832828]">Nossa localização</a></li>
                           </ul>
                         </div>
                       </div>
@@ -91,7 +90,7 @@
 
     <!-- Quem somos? -->
 
-    <article class="w-screen h-[1080px] bg-[#801C1C] [@media(max-width:550px)]:flex-col">
+    <article class="w-screen h-[1080px] bg-[#801C1C] [@media(max-width:550px)]:flex-col" id="quemsomos">
         <div>
             <h1 class="text-center text-[80px] font-extrabold tracking-[-3.84px] text-white pt-20">Quem Somos?</h1>
         </div>
@@ -169,7 +168,7 @@
          </section>
 
          <!-- Faixa -->
-          <section class="w-screen bg-red-700 flex justify-center h-[138px] items-center gap-[363px] mt-10">
+          <section class="w-screen bg-red-700 flex justify-center h-[138px] items-center gap-[363px] mt-10 " id="localização">
             <div>
               <p class="text-[20px] font-bold text-white" >Venha fazer parte do nosso movimento</p>
               <p class="text-[20px] font-bold text-white">Colabore com o Hemohelp e ajude a salvar ainda mais vidas</p>
@@ -186,17 +185,11 @@
           </div>
         </article>
 
-        <section class="w-screen h-[1080px] mt-20">
+        <footer class="w-screen h-[30px] mt-20 text-center bg-red-700 items-center">
            <div>
-            <h1 class="text-[#B40000] text-[64px] font-bold text-center">Conheça nossos voluntários</h1>
+            <p class="font-medium text-white">HemoHelp - Todos os direitos reservados.</p>
            </div>
-           <!-- Conteúdo -->
-           <main>
-
-            
-
-           </main>
-        </section>
+        </footer>
 
     </section>
 </body>
